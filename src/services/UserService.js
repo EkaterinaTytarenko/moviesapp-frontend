@@ -2,7 +2,7 @@ import axios from 'axios'
 import authHeader from './AuthHeader';
 import AuthService from "./AuthService";
 
-const REST_API_URL = 'https://doesthecatdie.herokuapp.com/';
+const REST_API_URL = 'https://doesthecatdie.herokuapp.com';
 const INDEX_ENDPOINT='/index';
 const MOVIE_DETAILS_ENDPOINT='/movieDetails';
 const USER_REQUEST_ENDPOINT='/userRequest';

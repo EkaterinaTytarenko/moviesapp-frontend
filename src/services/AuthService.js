@@ -2,7 +2,7 @@ import axios from 'axios'
 import jwt_decode from "jwt-decode";
 import authHeader from "./AuthHeader";
 
-const REST_API_URL = 'https://doesthecatdie.herokuapp.com/';
+const REST_API_URL = 'https://doesthecatdie.herokuapp.com';
 const SING_IN_ENDPOINT='/authenticate';
 const REGISTER_USER_ENDPOINT='/registerUser';
 const REGISTER_ADMIN_ENDPOINT='/registerAdmin';
